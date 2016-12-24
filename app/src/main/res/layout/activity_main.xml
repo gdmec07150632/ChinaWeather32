@@ -25,7 +25,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/find"
-            android:text="查询"/>
+            android:text="查询"
+            android:textSize="22dp"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/radius"/>
     </LinearLayout>
     <LinearLayout
         android:layout_width="fill_parent"
@@ -34,9 +37,18 @@
         android:layout_weight="1.0"
         android:orientation="vertical">
     </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="30dip"
+        android:background="#D0D0D0">
     <TextView
         android:id="@+id/my_name"
         android:text="07150632马昭华"
-        android:layout_width="fill_parent"
-        android:layout_height="40dip" />
+        android:textSize="18dp"
+        android:layout_marginTop="5dip"
+        android:gravity="center_horizontal"
+        android:textStyle="italic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    </LinearLayout>
 </LinearLayout>
